@@ -27,15 +27,15 @@
       --blur: 0px
   }
 
-  img {
-    padding: var(--spacing);
-    background: var(--base);
-    filter: blur(var(--blur));
-  }
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: blur(var(--blur));
+    }
 
-  .h1 {
-    color: var(--base);
-  }
+    .hl {
+      color: var(--base);
+    }
 
     /*
       misc styles, nothing to do with CSS variables
@@ -70,6 +70,9 @@
     inputs.forEach(input => input.addEventListener('change', handleUpdate));
     inputs.forEach(input => input.addEventListener('change', handleUpdate));
 
+    function hello() {
+      console.log('hello');
+    }
   </script>
 
 </body>
